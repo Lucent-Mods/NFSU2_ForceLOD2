@@ -1,0 +1,13 @@
+# build output
+obj/
+Release/
+dist/
+
+# local snapshots taken before bigger changes
+backup/
+
+# Visual Studio
+.vs/
+*.user
+*.log
+*.dmp
