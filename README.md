@@ -40,6 +40,7 @@ the scene a second time, and a capture mode that draws an entire region for a Re
 - [Troubleshooting](#troubleshooting)
 - [Known limits](#known-limits)
 - [Credits](#credits)
+- [License](#license)
 
 ## Features
 
@@ -409,9 +410,18 @@ over 50 ms. After a crash `NFSU2_ForceLOD2_crash.dmp` lies next to it – please
 ## Credits
 
 - [Dear ImGui](https://github.com/ocornut/imgui) by Omar Cornut (MIT)
-- [MinHook](https://github.com/TsudaKageyu/minhook) by Tsuda Kageyu (BSD 2-Clause)
+- [MinHook](https://github.com/TsudaKageyu/minhook) by Tsuda Kageyu (BSD 2-Clause, includes the Hacker
+  Disassembler Engine by Vyacheslav Patkov)
 - The NFS modding community – in particular nfsu2-re, Extra Options, Binary and the Unlimiter – and the
   RTX Remix projects of Ekozmaster and adamplayer, whose configurations the Remix setup builds on.
 
 Not affiliated with or endorsed by Electronic Arts. Need for Speed is a trademark of Electronic Arts Inc.
 You need your own copy of the game; this repository contains no game files.
+
+## License
+
+NFSU2 ForceLOD 2 is released under the [MIT License](LICENSE), Copyright (c) 2026 LUCENT.
+
+The bundled libraries keep their own licenses: Dear ImGui under MIT
+([third_party/imgui/LICENSE.txt](third_party/imgui/LICENSE.txt)) and MinHook under BSD 2-Clause
+([third_party/minhook/LICENSE.txt](third_party/minhook/LICENSE.txt)).
